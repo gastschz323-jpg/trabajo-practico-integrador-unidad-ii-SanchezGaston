@@ -1,0 +1,10 @@
+.card-carr{
+    background-color: rgb(8, 22, 24);
+    transition: all 0.3s ease;
+}
+.card-title{
+    color: white;
+}
+.card-carr:hover{
+    transform: translateY(30px)
+}
