@@ -1,0 +1,23 @@
+.card {
+    transition: transform 0.3s ease;
+    background-color: rgb(8, 22, 24);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    border-color: #004a87;
+}
+
+.card-title{
+    font-size: xx-large;
+    color: #004a87;
+}
+.por-que-elegir .col-md-3:hover span {
+    display: inline-block;
+    transform: scale(1.9) rotate(360deg);
+    transition: 0.3s;
+}
+
+.pqeleg{
+    color:  rgb(3, 177, 93);
+}
