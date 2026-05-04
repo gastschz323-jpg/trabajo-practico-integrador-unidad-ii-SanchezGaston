@@ -4,20 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/index.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/institucion.css" />
   </head>
 
   <body>
     <header>
       <div class="navb">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg navbar-custom">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html"
               >Instituto Politecnico Formosa</a
@@ -60,12 +60,280 @@
         </nav>
       </div>
     </header>
-    <footer>
+    <section class="tit">
+      <div class="Histo">
+        <div class="container text-center">
+          <h1>¿Cual es nuestra historia?</h1>
+        </div>
+        <div class="accordion container" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Origen (2013)
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                La idea nace junto al proyecto del Polo Científico y Tecnológico
+                de Formosa para cubrir la demanda de formación técnica avanzada.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Desarrollo (2014-2017)
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Investigación y diseño curricular junto a especialistas
+                nacionales e internacionales, definiendo el perfil de la primera
+                carrera: Mecatrónica.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Creación Oficial (2018)
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Investigación y diseño curricular junto a especialistas
+                nacionales e internacionales, definiendo el perfil de la primera
+                carrera: Mecatrónica.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                Inicio de Clases
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                El 19 de marzo de 2018 comienza la primera cohorte con 40
+                alumnos.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mision-vision py-5">
       <div class="container text-center">
-        <em
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-6 d-flex justify-content-center">
+            <div class="card card-mv text-bg-dark w-75 shadow">
+              <img
+                src="assets/img/ipf_institucional_card1}.jpg"
+                class="card-img"
+                alt="Misión"
+                style="opacity: 0.4"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-center"
+              >
+                <h2 class="card-title">Nuestra Misión</h2>
+                <p class="card-text fs-6">
+                  Brindar educación superior técnica y tecnológica de calidad,
+                  formando profesionales capaces de integrarse a los sectores
+                  productivos y sociales, impulsando el desarrollo
+                  socio-económico regional basado en el Modelo Formoseño.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex justify-content-center">
+            <div class="card card-mv text-bg-dark w-75 shadow">
+              <img
+                src="assets/img/ipf_institucional_card2.jpg"
+                class="card-img"
+                alt="Visión"
+                style="opacity: 0.4"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-center"
+              >
+                <h2 class="card-title">Nuestra Visión</h2>
+                <p class="card-text fs-6">
+                  Consolidarse como un centro de referencia
+                  científico-tecnológico que articula la educación con el mundo
+                  del trabajo, promoviendo la investigación aplicada y la
+                  transferencia de conocimiento.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="autoridades py-5">
+      <div class="container text-center">
+        <h2 class="mb-5">Autoridades</h2>
+        <div class="row justify-content-center g-4">
+          <div class="col-md-4">
+            <div
+              class="card card-autoridad bg-secondary text-white border-0 shadow"
+            >
+              <div class="card-body">
+                <div class="mb-3"></div>
+                <h5 class="card-title">Dr. Horacio Adrián Gorostegui</h5>
+                <p class="card-text text-info">Director</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="card card-autoridad bg-secondary text-white border-0 shadow"
+            >
+              <div class="card-body">
+                <div class="mb-3"></div>
+                <h5 class="card-title">Dra. Alicia Noemí Alcaraz</h5>
+                <p class="card-text text-info">Directora de Carreras</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="estructura">
+      <div class="est">
+        <section class="container my-5">
+          <div class="row">
+            <div class="col-md-4">
+              <div
+                id="simple-list-example"
+                class="d-flex flex-column gap-2 simple-list-example-scrollspy sticky-top"
+                style="top: 100px"
+              >
+                <a
+                  class="p-2 rounded btn btn-outline-success text-start"
+                  href="#item-1"
+                  >Naturaleza Jurídica</a
+                >
+                <a
+                  class="p-2 rounded btn btn-outline-success text-start"
+                  href="#item-2"
+                  >Metas Educativas</a
+                >
+                <a
+                  class="p-2 rounded btn btn-outline-success text-start"
+                  href="#item-3"
+                  >Vinculación Productiva</a
+                >
+                <a
+                  class="p-2 rounded btn btn-outline-success text-start"
+                  href="#item-4"
+                  >Marco Legal</a
+                >
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div
+                data-bs-spy="scroll"
+                data-bs-target="#simple-list-example"
+                data-bs-offset="0"
+                data-bs-smooth-scroll="true"
+                class="scrollspy-example"
+                tabindex="0"
+              >
+                <div id="item-1">
+                  <h4 class="scrollspy">Naturaleza Jurídica</h4>
+                  <p>
+                    El Instituto Politécnico Formosa es un Organismo
+                    Descentralizado con capacidad de derecho público y privado.
+                    Esto le permite realizar todos los actos y contratos
+                    necesarios para el cumplimiento de sus fines educativos y
+                    tecnológicos.
+                  </p>
+                </div>
+
+                <div id="item-2" class="mt-5">
+                  <h4 class="scrollspy">Metas Educativas</h4>
+                  <p>
+                    Brindar educación técnica en áreas estratégicas del Modelo
+                    Formoseño, promoviendo la especialización en sectores de
+                    innovación tecno-productiva y la formación profesional
+                    continua.
+                  </p>
+                </div>
+
+                <div id="item-3" class="mt-5">
+                  <h4 class="scrollspy">Vinculación Productiva</h4>
+                  <p>
+                    Fortalecer los nexos entre el sector científico y el mundo
+                    del trabajo. El IPF se constituye como centro de referencia
+                    para la transferencia de conocimientos hacia los sectores
+                    productivos locales.
+                  </p>
+                </div>
+
+                <div id="item-4" class="mt-5">
+                  <h4 class="scrollspy">Marco Legal</h4>
+                  <p>
+                    Establecido según el Decreto Nº 18 del año 2018, manteniendo
+                    relaciones de coordinación con los distintos ministerios y
+                    organismos del Gobierno Provincial de Formosa.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </section>
+   <footer>
+      <div class="container text-center">
+        <p class="footer"
           >&copy; 2026 Instituto Politecnico de Formosa. Todos los derechos
-          Reservados</em
-        >
+          Reservados</>
       </div>
     </footer>
     <script

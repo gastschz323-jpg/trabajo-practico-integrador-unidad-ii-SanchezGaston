@@ -1,0 +1,24 @@
+.card-mv{
+    transition: all 0.3s ease;
+    border: 1px solid transparent !important;
+}
+.card-mv:hover{
+    transform: translateY(-15px);
+}
+.autoridades{
+    background-color: #022a30;
+}
+.card-autoridad{
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid transparent !important
+}
+.card-autoridad:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(3, 177, 93, 0.4) !important;
+    background-color: #1a4d55 !important;
+
+}
+.scrollspy {
+    color: white;
+}
