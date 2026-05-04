@@ -8,3 +8,6 @@
 .card-carr:hover{
     transform: translateY(30px)
 }
+.alert{
+    background-color:#022a30 !important;
+}
